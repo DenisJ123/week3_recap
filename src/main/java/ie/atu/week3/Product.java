@@ -11,11 +11,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Product {
     @NotBlank(message = "Id cannot be blank")
-    private Long id;
+    private String id;
     @NotBlank(message = "Name cannot be null")
     private String name;
     @Positive(message = "Price cannot be negative")
     private double price;
+
 
 
 }
