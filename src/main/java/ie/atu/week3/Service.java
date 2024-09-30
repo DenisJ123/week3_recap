@@ -11,7 +11,6 @@ public class Service {
         productList.add(product);
         return "Product added";
     }
-
     public String removeProduct(Product product) {
         productList.remove(product);
         return "Product removed";
@@ -21,5 +20,6 @@ public class Service {
         productList.set(index, product);
         return "Product updated";
     }
+
 }
 
