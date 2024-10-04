@@ -11,15 +11,7 @@ public class Service {
         productList.add(product);
         return "Product added";
     }
-    public String removeProduct(Product product) {
-        productList.remove(product);
-        return "Product removed";
-    }
-    public String updateProduct(Product product) {
-        int index = productList.indexOf(product);
-        productList.set(index, product);
-        return "Product updated";
-    }
+
 
 }
 
